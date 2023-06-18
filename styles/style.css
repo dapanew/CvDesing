@@ -1,0 +1,129 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: 0%;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+#container-principal{
+    height: 100%;
+    width: 100%;
+ display: flex;
+flex-direction: row;
+}
+header {
+    height: 100%;
+    width: 15%;
+    /*background-image: url("/CvDesing/assets/img/fondo.jpg");*/
+    background-color: #212026;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .image-profile {
+    height: 121px;
+    width: 120px;  
+margin-left: 25px;
+  }
+ 
+ header p {
+  background-color: #212026;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  }
+  header li {
+    background-color: #212026;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    }
+  header h2{
+    text-align: center;
+    background-color:#fecb02;
+    height: 5%;
+  }
+  #header-h2{
+    text-align: center;
+    background-color:#fecb02;
+    height: 4%;
+    font-size: 20px;
+  }
+  #header-nombre {
+    background-color:#fecb02;
+    height: 9%;
+    width: 80%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  main {
+    height: 100%;
+    width: 100%;
+  }
+  section h2{
+    background-color:#fecb02;
+    height: 30%;
+    width: 25%;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 35px;
+  }
+  li{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+  }
+
+  footer {
+    height: 90px;
+    width: 100%;
+    background-color: #fecb02;
+    text-align: center;
+  }
+  footer p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 25px;  
+  }
+ 
+/*
+.image-profile {
+  height: 121px;
+  width: 120px;
+}
+
+/*
+   .header-name{
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+   }*/
+/*
+
+aside{
+    height: 100%;
+    width: 11%;
+    background-color: #443e28; 
+    float: left;
+   }
+   #container{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+   }
+h2 {
+  color: #443e28;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #fecb00;
+}
+/*#container-principal{}*/
+/*
+
